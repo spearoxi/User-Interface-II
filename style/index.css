@@ -42,7 +42,7 @@ table {
     margin:0;
     padding:0;
     max-width:100%;
-    border: 1px solid grey;
+    border: 1px ;
 }
 
 /*GENERAL styles*/
@@ -80,9 +80,10 @@ a{
 }
 p{
     font-family: 'Roboto Mono', monospace;
+    text-align:center;
 }
 
-nav{
+nav .links{
     display: flex;
    justify-content: space-between;
 
@@ -93,4 +94,91 @@ nav{
     width:40%;
     display:flex;
     justify-content: space-evenly;
+}
+
+.recentproject{
+    background-image: url('https://source.unsplash.com/cOkpTiJMGzA');
+    width:100%;
+    height:50vh;
+    background-position: center bottom;
+}
+.main-project{
+    
+    text-align:center;
+    font-size: 3rem;
+    background:tan;
+    padding:1%;
+    width:30%;
+    margin-left:35%;
+   
+}
+.recent{
+    color:white;
+ 
+}
+
+.contact2{
+    font-size:1rem;
+    display:flex;
+    justify-content: center;
+    margin:5%;
+    border: solid black 1px;
+    border-radius:25px;
+    padding:1%;
+    text-align: center;
+    background:grey;
+     color:white;
+}
+.otherprojects{
+    font-family: 'Amatic SC';
+    color:White;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:2rem;
+    margin-bottom:-10rem;
+    font-size:30px;
+   
+}
+
+.Project1{
+    width:30rem;
+    height:30rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid black 0.4rem;
+    border-radius:50rem;
+}
+
+.Project2{
+    width:30rem;
+    height:30rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid black 0.4rem;
+    border-radius:50rem;
+}
+.Project3{
+    width:30rem;
+    height:30rem;
+    background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg");
+    background-size:250%;
+    padding:1.5%;
+    margin:1.5%;
+    border:solid black 0.4rem;
+    border-radius:50rem;
+}
+
+footer{
+    margin-top:15%;
+}
+.project-titles{
+    display: flex;
+    height:10vh;
+    justify-content: space-around;
+    font-size:4rem;
+  
 }
